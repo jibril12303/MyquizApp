@@ -5,3 +5,26 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+body{  
+  background-image: url(./img/pexels-cottonbro-4065864.jpg);
+  height: 100vh;
+  background-size: 100%;
+  background-position: center;
+}
+
+::selection{
+  color: #fff;
+  background: #4b3e49;
+}
+
+.rule_box,
+.quiz_box,
+.result_box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+              0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

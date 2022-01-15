@@ -98,3 +98,15 @@ showcase {
   font-size: 35px;
   font-weight: 600;
 }
+.rule_box .rule-list{
+  padding: 15px 30px;
+}
+
+.rule_box .rule-list .rule{
+  margin: 5px 0;
+  font-size: 28px;
+}
+.rule_box .rule-list .rule span{
+  font-weight: 600;
+  color: #e1e400;
+}

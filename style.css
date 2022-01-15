@@ -28,3 +28,24 @@ body{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
               0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+showcase {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000000ba;
+}
+.showcase-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 250px;
+  justify-content: space-evenly;
+}
+
+.showcase-text h1{
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #e1e400;
+}
+

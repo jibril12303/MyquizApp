@@ -1,79 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quiz App</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
 <body>
-  <div class="showcase">
-    <div class="showcase-text">
-        <h1>Quiz your knowledge</h1>
-        <h2>5 Questions</h2>
-        <div class="start_btn"><button>Start Quiz</button></div>
+    <div class="showcase">
+        <div class="showcase-text">
+            <h1>Quiz your knowledge</h1>
+            <h2>5 Questions</h2>
+            <div class="start_btn"><button>Start Quiz</button></div>
+        </div>
     </div>
     
+
     <div class="rule_box">
-      <div class="rule-title"><span>Rules to follow:</span></div>
-      <div class="rule-list">
-          <div class="rule">1. Each question will have <span>5 seconds</span> </div>
-          <div class="rule">2. Selected answer can't be undone</div>
-          <div class="rule">3. Can't select after 5 seconds</div>
-          <div class="rule">4. Can't exit once the quiz starts</div>
-      </div>
-      <div class="buttons">
-          <button class="quit">Exit Quiz</button>
-          <button class="restart">Continue</button>
-      </div>
-  </div>
-
-  <!-- Quiz Box -->
-  <div class="quiz_box">
-    <header>
-        <div class="title">General Questions</div>
-        <div class="timer">
-            <div class="time_left_txt">Time Left</div>
-            <div class="timer_sec">5</div>
+        <div class="rule-title"><span>Rules to follow:</span></div>
+        <div class="rule-list">
+            <div class="rule">1. Each question will have <span>5 seconds</span> </div>
+            <div class="rule">2. Selected answer can't be undone</div>
+            <div class="rule">3. Can't select after 5 seconds</div>
+            <div class="rule">4. Can't exit once the quiz starts</div>
         </div>
-        <div class="time_line"></div>
-    </header>
-    <section>
-        <div class="que_text">
-
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
         </div>
-        <div class="option_list">
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">General Questions</div>
+            <div class="timer">
+                <div class="time_left_txt">Time Left</div>
+                <div class="timer_sec">5</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                
+            </div>
+            <div class="option_list">
+                
+            </div>
+        </section>
+
+        <footer>
+            <div class="total_que">
+                
+            </div>
+            <button class="next_btn">Next Question</button>
+        </footer>
+    </div>
+
+    <div class="result_box">
+        <div class="image">
+            <img src="./img/giphy.gif" alt="">
+        </div>
+        <div class="complete_text">Completed!</div>
+        <div class="score_text">
             
         </div>
-    </section>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
 
-    <footer>
-      <div class="total_que">
-          
-      </div>
-      <button class="next_btn">Next Question</button>
-  </footer>
-</div>
-
-<div class="result_box">
-  <div class="image">
-      <img src="./img/giphy.gif" alt="">
-  </div>
-  <div class="complete_text">Completed!</div>
-  <div class="score_text">
-      
-  </div>
-  <div class="buttons">
-      <button class="restart">Replay Quiz</button>
-      <button class="quit">Quit Quiz</button>
-  </div>
-</div>
-
-  <script src="js/questions.js"></script>
-  <script src="js/script.js"></script>
-
+    <script src="js/questions.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
 </html>

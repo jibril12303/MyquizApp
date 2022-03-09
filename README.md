@@ -1,2 +1,10 @@
-# MyquizApp
-http://127.0.0.1:5501/index.html
+Code Quiz
+
+
+This is an HTML, CSS, and Javascript quiz application. This application stresses the use of Javascript to deliver quiz questions and collect user data to assess whether the answers to a question are accurate, after which a score is generated and a final page of results from the user data is appended.
+
+This project is now available on GitHub Pages. To get this project up and running, you can follow the deployment link. Or, download the sources files to use this as a template.
+
+
+
+https://jibril12303.github.io/MyquizApp/
